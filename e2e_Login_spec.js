@@ -28,5 +28,17 @@ describe('Addus Login e2e testing: ', function() {
         expect(ptor.getCurrentUrl()).not.toBe('https://dev.addus.com/amp/#/home');
     });
     
-
+    it('maximum field length of UserID is 6 digits', function() {
+        expect(element(by.id('user_id')).getAttribute('amp-maxlength')).toBe('6');
+    });
+    
+    it('input type of UserID is number', function() {
+        expect(element(by.id('user_id')).getAttribute('type')).toBe('number');
+    });
+    dasdfa
+	asdfasdf
+	asdfasdfa
+	asdfasdfaasdfasdfa
+	
+	asdfasdf
 });
