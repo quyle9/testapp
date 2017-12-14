@@ -35,10 +35,5 @@ describe('Addus Login e2e testing: ', function() {
     it('input type of UserID is number', function() {
         expect(element(by.id('user_id')).getAttribute('type')).toBe('number');
     });
-    dasdfa
-	asdfasdf
-	asdfasdfa
-	asdfasdfaasdfasdfa
-	test testing
-	asdfasdf
+
 });
