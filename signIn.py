@@ -35,7 +35,6 @@ class MyTestCase(unittest.TestCase):
         error = self.driver.find_element_by_accessibility_id('Username or password invalid')
         self.assertTrue(error.is_displayed())
 
-unittest
 
 if __name__ == '__main__':
     suite = unittest.TestLoader().loadTestsFromTestCase(MyTestCase)
