@@ -36,7 +36,6 @@ class MyTestCase(unittest.TestCase):
         self.assertTrue(error.is_displayed())
 
 unittest
-
 if __name__ == '__main__':
     suite = unittest.TestLoader().loadTestsFromTestCase(MyTestCase)
     unittest.TextTestRunner(verbosity=2).run(suite)
